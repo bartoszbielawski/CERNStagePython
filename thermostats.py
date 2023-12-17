@@ -9,6 +9,7 @@ class Thermostat:
             return -1.0
         return 0.0
 
+
 class HeatingThermostat:
     def __init__(self, target):
         self.target = target
@@ -16,6 +17,7 @@ class HeatingThermostat:
     def __call__(self, current_temperature):
         if current_temperature < self.target:
             return 1.0
+
 
 class HeatingThermostatWithHysteresis:
     def __init__(self, target, hysteresis=2):

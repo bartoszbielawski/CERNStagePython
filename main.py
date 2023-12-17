@@ -103,5 +103,8 @@ for i in range(10):
     print(i)
 
 
+input("Functions...")
 
+def function(a, b, c)
+    return a + b * c
 
