@@ -80,11 +80,10 @@ print(5 > 4)
 input("(2 * 10) == (4 * 5)")
 print((2 * 10) == (4 * 5))
 
-print("5 != 4")
+print("5 != 5")
 print(5 != 5)
 
 input("Control structures...")
-
 
 input("IF statements")
 if 4 > 3:
@@ -103,8 +102,34 @@ for i in range(10):
     print(i)
 
 
-input("Functions...")
-
-def function(a, b, c)
+input("Function...")
+def function(a, b, c):
     return a + b * c
+
+print(function(1,2,3))
+
+
+print("imports...")
+input("math.sqrt(16)?")
+import math
+print(math.sqrt(16))
+
+# Tasks:
+# 1) Write a program that asks for two numbers (hint: use float(input())),
+#       adds them and prints "that's big" if the sum is over 100
+# 2) Write a program that prints squares of number from 1 to 10 and puts them in a list
+# 3) Write a function that sums all the numbers from 1 to 100
+# 4) Write a program that compares two numbers and says prints the bigger one
+# 5) Write a program that counts from 1 to 100 and:
+#       a) prints just the number, except...
+#       b) prints "foo" if a number is divisible by 3 (hint: use % operator)
+#       c) prints "bar" if a number is divisible by 5 (hint: use % operator)
+#       d) prints "foobar" if a number is divisible by 15 (hint: use % operator)
+# 6) Write a program that calculates Fibonacci's number,
+# 7) Write a program that calculates factorial of a number
+# 8) Write a number guessing name (use random module)
+
+
+
+
 

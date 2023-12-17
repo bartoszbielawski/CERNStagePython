@@ -30,7 +30,7 @@ run_thermostat(thermostat, 30)
 #   b) HINT #2: you need extra state to make it work
 # 3. Sometimes you need to keep the temperature constant, how to do it?
 #   a) HINT #1: proportional controller,
-#   b) Did you reach the set-point?
+#   b) Did you reach the set-point? Try using PI controller
 
 
 
